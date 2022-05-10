@@ -4,16 +4,14 @@
   padding: 0;
   margin: 0;
   font-family: "Space Mono", "Roboto Mono", sans-serif;
+  font-size: 2.1vw;
 }
 
 body {
   margin-inline: auto;
-  width: 60%;
-  padding: 50px;
-}
-
-h1 {
-  font-size: 20px;
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 img {
@@ -27,13 +25,13 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 2vh;
 }
 
 a {
   text-decoration: none;
   color: black;
+  font-size: 1.5vw;
 }
 
 .links {
@@ -48,8 +46,7 @@ main {
   display: grid;
   grid-template-columns: 3fr 0.7fr 2.75fr 3.25fr;
   grid-template-rows: 1fr 0.75fr 1fr 1.75fr;
-  gap: 1rem;
-  height: 100%;
+  gap: 0.5rem;
 }
 
 #one {

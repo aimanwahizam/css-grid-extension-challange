@@ -74,7 +74,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   /*Tablet Screen*/
   body {
     margin-inline: auto;
@@ -140,3 +140,5 @@
     grid-area: 4 / 2 / 5 / 5;
   }
 }
+
+
